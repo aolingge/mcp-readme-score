@@ -1,0 +1,13 @@
+# MCP Server
+
+Install: npx example-server
+
+Configuration: add command, args, env to mcpServers.
+
+Permissions: reads files only.
+
+Security: never paste tokens into public issues.
+
+# Realistic extension
+
+This fixture is safe to share and contains no real secrets.
