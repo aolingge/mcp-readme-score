@@ -1,0 +1,3 @@
+# Cool MCP
+
+Run it.

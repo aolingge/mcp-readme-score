@@ -1,0 +1,31 @@
+{
+  "name": "mcp-readme-score",
+  "version": "0.1.0",
+  "description": "Score MCP server READMEs for install clarity, permissions, env vars, security notes, and examples.",
+  "type": "module",
+  "bin": {
+    "mcp-readme-score": "./src/cli.js"
+  },
+  "scripts": {
+    "test": "node --test",
+    "check": "node src/cli.js --path fixtures/good.txt --min-score 75"
+  },
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "readme",
+    "security",
+    "developer-tools",
+    "cli"
+  ],
+  "author": "Aolingge",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aolingge/mcp-readme-score.git"
+  },
+  "bugs": {
+    "url": "https://github.com/aolingge/mcp-readme-score/issues"
+  },
+  "homepage": "https://github.com/aolingge/mcp-readme-score"
+}
